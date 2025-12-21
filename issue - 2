@@ -1,0 +1,9 @@
+When there are duplicates at source, there are few options to
+
+a. we can do deduplication using row_number
+
+b. we can change composite key but it may not work if even the updated composite keys are same.
+
+c. Truncating the table and loading it again may work if we are sure that there are no duplicates anymore in the source
+
+d. If duplicates are still present in source, we have to 
