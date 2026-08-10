@@ -1,0 +1,5 @@
+when we are following medallian architecture and changed the composite key based on the source
+
+a. composite key has to be changed on all layers
+
+b. Both records would exist, records with old composite key and records with new composite key
